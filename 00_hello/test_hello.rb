@@ -28,14 +28,14 @@ class TestHello < MiniTest::Test
     # In hello.rb:
     #
     # def hello
-    #   "Hello!"
+    #   "Hello!" #THIS HAS TO SAY "hello" FOR IT TO RUN
     # end
   end
 
 # Congrats, if all went well, we made our first test ever pass!
 
 # But hold on there cowboy, we got another test right in front of us now.
-
+  #
   def test_says_hello_to_someone
     assert_equal "Hello, Alice!", greet("Alice")
   end
